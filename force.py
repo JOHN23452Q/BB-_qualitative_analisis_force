@@ -56,10 +56,11 @@ ax.legend()
 # CAMBIO AQUÍ: Ajustar límites fijos para acomodar los nuevos rangos máximos
 # (Max Fuerza posible = 20kg * 20m/s² = 400N)
 ax.set_xlim(0, 25)
-ax.set_ylim(0, 450)
+ax.set_ylim(0, 4500)
 
 # Mostrar la gráfica en la web
 st.pyplot(fig)
+
 
 
 
