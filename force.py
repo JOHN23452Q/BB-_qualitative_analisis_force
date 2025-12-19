@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Ley de Newton", page_icon="🍎", layout="centered")
 
 
-st.markdown("En este experimento, tú controlas la **Masa** y la **Aceleración** deseada. El sistema calculará la **Fuerza** necesaria para lograrlo según $F = m \cdot a$.")
-st.markdown("Esperimentu honetan, nahi duzun** Masa** eta** Azelerazioa** kontrolatzen dituzu. Sistemak kalkulatuko du hori lortzeko behar den** Indarra** $F = m\cdot a $.")
+st.markdown("En este experimento, tú controlas la **Masa** y la **Aceleración** deseada. El sistema calculará la **Fuerza** necesaria / "Esperimentu honetan, nahi duzun** Masa** eta** Azelerazioa** kontrolatzen dituzu.")
+
 
 # 2. Crear las columnas para los controles (Sliders)
 # CAMBIO AQUÍ: Ahora los inputs son Masa y Aceleración
@@ -62,5 +62,6 @@ ax.set_ylim(0, 450)
 
 # Mostrar la gráfica en la web
 st.pyplot(fig)
+
 
 
