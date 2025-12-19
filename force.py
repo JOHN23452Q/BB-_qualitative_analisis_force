@@ -12,7 +12,7 @@ st.set_page_config(page_title="Ley de Newton", page_icon="🍎", layout="centere
 col1, col2 = st.columns(2)
 
 with col1:
-    masa = st.slider("Masa (kg)", min_value=0.1, max_value=20.0, value=5.0, step=0.1)
+    masa = st.slider("Masa (kg)", min_value=0.1, max_value=120.0, value=5.0, step=0.1)
 
 with col2:
     # Se cambia el slider de Fuerza por el de Aceleración
@@ -60,6 +60,7 @@ ax.set_ylim(0, 450)
 
 # Mostrar la gráfica en la web
 st.pyplot(fig)
+
 
 
 
